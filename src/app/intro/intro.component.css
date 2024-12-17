@@ -1,0 +1,103 @@
+
+
+ .setting-icon {
+ 
+    background-color: var(--main-color);
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 9999999;
+    width: 30px;
+    height: 100px;
+    
+}
+
+ .setting-icon i {
+    font-size: 20px;
+    text-align: center;
+}
+.setting-icon:hover {
+    background-color: var(--second-color);
+}
+.setting-icon:hover i{
+    color: white;
+    
+}
+
+.down-btn a {
+    width: 25px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid var(--main-color);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px;
+    z-index: 99;
+}
+
+.down-btn a::after {
+    content: "";
+    background-color: var(--main-color);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: header-btn-move;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes header-btn-move {
+    0% {
+        bottom: 80%;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 20%;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+/* Start Up Arrow */
+.up-arrow {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    font-size: 36px;
+    transition: all 0.3s;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
+    z-index: 9999999;
+    transition: all 0.3s ease;
+}
+.up-arrow a{
+    position: fixed;
+    right:29px;
+    bottom: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: var(--main-color);
+    transition: all 0.3s ease;
+
+}
+
+
+
+.up-arrow:hover {opacity: 0.5;}
+/* End Up Arrow */
+
+
+

@@ -1,0 +1,561 @@
+.intro .containar {
+    background-image: url(../../assets/images/HAPI\ V-78.webp);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+}
+
+
+
+.Video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#background-video {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -100;
+
+}
+
+.home-content  {
+    width: 100%;
+  }
+.home-content p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+
+}
+
+.home-content h1 {
+    font-size: 2.1rem;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.sec-sub {
+    color:#9c8251 !important;
+}
+.Sub
+{
+    color: #9c8251;
+}
+.sec-sub::after {
+    content: "";
+    animation: typing 12s linear infinite;
+}
+
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: "E|";
+    }
+
+    2% {
+        content: "El|";
+    }
+
+    3% {
+        content: "Ele|";
+    }
+
+    4% {
+        content: "Eleg|";
+    }
+
+    5% {
+        content: "Elega|";
+    }
+
+    6% {
+        content: "Elegan|";
+    }
+
+    7% {
+        content: "Elegant|";
+    }
+
+    8% {
+        content: "Elegant |";
+    }
+
+
+    11% {
+        content: "Elegant|";
+    }
+
+    13% {
+        content: "Elegan|";
+    }
+
+    14% {
+        content: "Elega|";
+    }
+
+    15% {
+        content: "Eleg|";
+    }
+
+    16% {
+        content: "Ele|";
+    }
+
+    17% {
+        content: "El|";
+    }
+
+    18% {
+        content: "E|";
+    }
+
+    19% {
+        content: "|";
+    }
+
+    20% {
+        content: "L|";
+    }
+
+    21% {
+        content: "Le|";
+    }
+
+    22% {
+        content: "Lei|";
+    }
+
+    23% {
+        content: "Leis|";
+    }
+
+    24% {
+        content: "Leisu|";
+    }
+
+    25% {
+        content: "Leisur|";
+    }
+
+    25% {
+        content: "Leisure|";
+    }
+
+    26% {
+        content: "Leisurel|";
+    }
+
+    27% {
+        content: "Leisurely|";
+    }
+
+    28% {
+        content: "Leisurely.|";
+    }
+
+    29% {
+        content: "Leisurely|";
+    }
+
+    30% {
+        content: "Leisurel|";
+    }
+
+    31% {
+        content: "Leisure|";
+    }
+
+    32% {
+        content: "Leisur|";
+    }
+
+    33% {
+        content: "Leisu|";
+    }
+
+    34% {
+        content: "Leis|";
+    }
+
+    35% {
+        content: "Lei|";
+    }
+
+    36% {
+        content: "Le|";
+    }
+
+    37% {
+        content: "L|";
+    }
+
+    38% {
+        content: "|";
+    }
+
+    39% {
+        content: "I|";
+    }
+
+    40% {
+        content: "In|";
+    }
+
+    41% {
+        content: "Int|";
+    }
+
+    42% {
+        content: "Inti|";
+    }
+
+    43% {
+        content: "Intim|";
+    }
+
+    44% {
+        content: "Intima|";
+    }
+
+    45% {
+        content: "Intimat|";
+    }
+
+    46% {
+        content: "Intimate|";
+    }
+
+    47% {
+        content: "Intimate.|";
+    }
+
+    48% {
+        content: "Intimate|";
+    }
+
+    49% {
+        content: "Intimat|";
+    }
+
+    50% {
+        content: "Intima|";
+    }
+
+    51% {
+        content: "Intim|";
+    }
+
+    52% {
+        content: "Inti|";
+    }
+
+    53% {
+        content: "Int|";
+    }
+
+    54% {
+        content: "In|";
+    }
+
+    55% {
+        content: "I|";
+    }
+
+    56% {
+        content: "|";
+    }
+
+    57% {
+        content: "|";
+    }
+
+
+
+}
+
+.home-content .btn{
+ 
+    background-color: var(--main-color);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    z-index: 9999999;
+    
+    font-weight: 700;
+
+    
+}
+.home-content  a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.home-content .btn:hover {
+    background-color: var(--second-color);
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color:#474747;
+    background-color: transparent;
+}
+.nav-link:hover
+{
+    color: #474747;
+}
+/*****video**********************************************************/
+/***************************************************/
+.wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; 
+    
+  }
+  
+  .box-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    
+  }
+  
+
+/* The Play-Button using CSS-Only */
+ .bt-play {
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: rgba(250, 248, 248, 0.877);
+
+    border-radius: 50%;
+    text-indent: -999em;
+    cursor: pointer;
+    z-index:2;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+  }
+  
+  /* The Play-Triangle */
+ .bt-play:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin: -12px 0 0 -6px;
+    border: solid transparent;
+    border-left-color: var(--main-color);
+    border-width: 12px 20px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+  }
+  
+  .bt-play:hover  {
+    transform: scale(1.1);
+  }
+ 
+
+  
+   /* Layout for this demo */
+
+  
+   /* Set Cover aka Background-Image */
+  .box-video .bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+  }
+  
+   /* Add light shade to make play button visible*/
+  .bg-video::after{ 
+      content:'';
+      position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.1);
+        z-index: 3;
+        }
+  
+ 
+  
+  .box-video:hover .bt-play {
+    transform: scale(1.1);
+  }
+  
+  /* When Class added the Cover gets hidden... */
+  .box-video.open .bg-video{
+    visibility: hidden;
+    opacity: 0;
+  
+    -webkit-transition: all .6s .8s;
+    transition: all .6s .8s;  
+  }
+  
+  /* and iframe shows up */
+  .box-video.open .video-container{
+    opacity: 1;
+    -webkit-transition: all .6s .8s;
+    transition: all .6s .8s;
+  }
+  
+  /* Giving the div ratio of 16:9 with padding */
+  .video-container {
+      position: relative;
+      width: 100%;
+      height: 0;
+    margin: 0;
+    z-index: 1;
+      padding-bottom: 56.27198%;
+  }
+  
+  .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
+/*******************************************************************/
+table 
+{
+color: #17263d;
+border: #e6224377 solid 1px;
+border-radius: 50px;
+}
+table th 
+{
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+table th,td
+{
+    padding: 10px;
+}
+
+table td{
+color: #17263da8;
+}
+table td:hover{
+    background-color: #dbd9d9e7;
+
+    border-radius: .4em;
+    transition: all 1s; }
+
+ .rwd-table {
+
+    border-radius: .4em;
+    overflow: hidden;
+}
+ tr th:first-child
+{
+    border-radius: .4em 0 0 .4em;
+}
+tr th:last-child
+{
+    border-radius: 0 .4em .4em 0;
+}
+/************************************************************/
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 48%; /* Maintain the 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the video covers the entire container */
+  }
+
+@media screen and (max-width: 500px) {
+
+
+    .home-content h2 {
+        font-size: 2.3rem;
+        font-weight: 600;
+        padding: 10px;
+
+    }
+
+    .home-content p {
+        font-size: 1rem;
+        font-weight: 300;
+        width: 100%;
+
+    }
+    .about-info  p{
+        text-align: start;
+ 
+    }
+    .section-title  {
+        width: 100%;
+    
+     }
+    .bt-play {
+        position: absolute;
+        top:50%;
+        left:44%;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+
+      }
+      
+      /* The Play-Triangle */
+     .bt-play:after {
+        content: '';
+        position: absolute;
+        left: 53%;
+        top: 53%;
+       font-size: 8px;
+
+      }
+}
+
+  
+   
